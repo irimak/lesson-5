@@ -79,6 +79,10 @@ span {
   letter-spacing: 3px;
 }
 
+.text-first {
+  margin-bottom: 20px;
+}
+
 .paragraph.main-info {
   color: #a52a2a;
   font-weight: 700;
@@ -93,6 +97,7 @@ span {
 
 .list {
   padding-left: 24px;
+  margin-bottom: 20px;
 }
 
 .item {
