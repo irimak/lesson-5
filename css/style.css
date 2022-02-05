@@ -32,7 +32,14 @@ body {
   font-size: 20px;
 }
 
+.container {
+  width: 1000px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
 .name {
+  margin-bottom: 36px;
   color: #ff0000;
   font-family: "Wremena";
   font-weight: 700;
@@ -41,12 +48,21 @@ body {
 }
 
 .info-name {
+  margin-bottom: 20px;
   color: #008000;
   font-size: 36px;
   text-shadow: 10px -10px 20px #008000;
 }
 
-.text {
+.text-original {
+  height: 200px;
+  overflow: auto;
+  background-color: rgba(185, 175, 143, 0.089);
+}
+
+.text,
+.text-original {
+  margin-bottom: 36px;
   color: #808080;
   line-height: 1.5;
   text-indent: 25px;
@@ -75,6 +91,10 @@ span {
   color: #000000;
 }
 
+.list {
+  padding-left: 24px;
+}
+
 .item {
   font-weight: 500;
   font-style: italic;
@@ -84,4 +104,8 @@ span {
   color: #036810;
   font-family: "Wremena";
   font-weight: 400;
+}
+
+.image {
+  margin-bottom: 20px;
 }
